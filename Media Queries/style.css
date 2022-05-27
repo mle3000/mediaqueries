@@ -1,0 +1,86 @@
+
+body{
+
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica", san-serif;
+	font-weight: 100;
+	box-sizing: border-box;
+}
+
+header { text-align: center;
+	width: 100%;
+	color: white;
+	height: 150px;
+	padding: 50px 0px;
+	background-color: #009bc7;
+}
+
+section{
+
+	float: left;
+	font-weight: 300;
+	padding: 30px;
+	margin: 0;
+	width: 50%;
+	font-size: 14px;
+	color: #7d7d7d;
+	box-sizing: border-box;
+
+}
+
+nav {
+  margin: 0 auto;
+  width: 800px;
+}
+
+nav ul {
+  text-align: center;
+  font-family: Arial, Verdana;
+  font-size: 18px;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  height: 20px;
+  width: 95px;
+  margin: 0 55px 0 5px;
+  white-space: nowrap;
+}
+
+nav ul li a {
+  display: block;
+  width: 80px;
+  text-decoration: none;
+  padding: 5px 20px;
+background:#ff827b;
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .5);
+  border: solid 4px white;
+}
+
+footer {text-align: middle;
+text-decoration: none;
+padding-left: 600px;}
+
+@media(max-width:940px) {
+
+	header{
+		background-color: green;
+		color: yellow;
+	}
+}
+@media (min-width:400px) and (max-width: 800px) {
+
+	header {
+
+		background-color: hotpink;
+		color: limegreen;
+	}}
+ 
+ @media print { 
+ nav {display: none}
+ footer {display: none}
+ header {color: inherit}
+ p {font-size: 18px} }
